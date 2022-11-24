@@ -9,4 +9,4 @@ Console.WriteLine("Введите число");
 int num = Convert.ToInt32(Console.ReadLine());
 
 int sqt = num*num;
-Console.WriteLine(sqt);
+Console.WriteLine("Квадрат числа " + num + " равен " + sqt);
