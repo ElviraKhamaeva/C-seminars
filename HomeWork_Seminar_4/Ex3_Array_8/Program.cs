@@ -15,4 +15,6 @@ int [] GetArray(int [] arr)
 }
 int [] array = new int [8];
 GetArray(array);
+Console.Write("[");
 Console.Write(String.Join(", ", array));
+Console.Write("]");
