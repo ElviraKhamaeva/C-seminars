@@ -43,8 +43,7 @@ int[] array = new int[12];
 GetArray(array);
 Console.Write("[");
 Console.Write(String.Join(", ", array));
-Console.Write("]");
-Console.WriteLine();
+Console.WriteLine("]");
 
 Console.WriteLine($"Сумма положительных элементов массива равна {PositiveSum(array)}");
 Console.WriteLine($"Сумма отрицательных элементов массива равна {NegativeSum(array)}");

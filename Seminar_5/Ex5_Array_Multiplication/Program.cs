@@ -39,13 +39,9 @@ int[] array = new int[size];
 GetArray(array);
 Console.Write("[");
 Console.Write(String.Join(", ", array));
-Console.Write("]");
-Console.WriteLine();
+Console.WriteLine("]");
 
 Console.WriteLine("Массив из произведений пар чисел (первый и последний, второй и предпоследний и тд):");
 Console.Write("[");
 Console.Write(String.Join(", ", Multiplication(array)));
-Console.Write("]");
-Console.WriteLine();
-
-
+Console.WriteLine("]");

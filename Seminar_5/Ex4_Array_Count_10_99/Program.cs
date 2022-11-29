@@ -35,9 +35,6 @@ int[] array = new int[size];
 GetArray(array);
 Console.Write("[");
 Console.Write(String.Join(", ", array));
-Console.Write("]");
-Console.WriteLine();
+Console.WriteLine("]");
 
 Console.WriteLine($"Количество двухзначных чисел в массиве: {CountNumbers1099(array)}");
-
-

@@ -29,13 +29,9 @@ int[] array = new int[size];
 GetArray(array);
 Console.Write("[");
 Console.Write(String.Join(", ", array));
-Console.Write("]");
-Console.WriteLine();
+Console.WriteLine("]");
 
 ChangeSign(array);
 Console.Write("[");
 Console.Write(String.Join(", ", array));
-Console.Write("]");
-Console.WriteLine();
-
-
+Console.WriteLine("]");

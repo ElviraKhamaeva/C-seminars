@@ -33,8 +33,7 @@ int[] array = new int[size];
 GetArray(array);
 Console.Write("[");
 Console.Write(String.Join(", ", array));
-Console.Write("]");
-Console.WriteLine();
+Console.WriteLine("]");
 
 Console.WriteLine("Какое число ищем?");
 int number = Convert.ToInt32(Console.ReadLine());
@@ -47,6 +46,3 @@ else
 {
     Console.WriteLine("Числа нет в массиве");
 }
-
-
-
