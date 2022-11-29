@@ -11,7 +11,7 @@ int num = Convert.ToInt32(Console.ReadLine());
 
 if (num < 1 || num > 7)
 {
-   Console.WriteLine("Ошибка, такого дня недели нет!"); 
+    Console.WriteLine("Ошибка, такого дня недели нет!");
 }
 else
 {

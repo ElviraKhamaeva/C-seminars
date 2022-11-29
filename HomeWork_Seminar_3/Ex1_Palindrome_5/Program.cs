@@ -17,13 +17,13 @@ if (num > 9999 && num < 100000)
     Console.WriteLine("Перевертыш :" + numTextRev);
 
     if (numText == numTextRev)
-        {
-            Console.WriteLine("Число палиндром!");
-        }
-        else
-        {
-            Console.WriteLine("Число НЕ палиндром!");
-        }    
+    {
+        Console.WriteLine("Число палиндром!");
+    }
+    else
+    {
+        Console.WriteLine("Число НЕ палиндром!");
+    }
 }
 else
 {

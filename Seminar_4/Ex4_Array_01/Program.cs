@@ -29,16 +29,16 @@
 
 
 //Вариант преподавателя
-int [] GetArray(int [] array)
+int[] GetArray(int[] array)
 {
 
     for (int i = 0; i < array.Length; i++)
     {
-        array[i] = new Random().Next(0,2);
+        array[i] = new Random().Next(0, 2);
     }
     return array;
 
 }
-int [] array = new int [8];
+int[] array = new int[8];
 GetArray(array);
 Console.Write(String.Join(", ", array));

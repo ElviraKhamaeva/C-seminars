@@ -5,7 +5,7 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
-int num = new Random().Next(10,10000);
+int num = new Random().Next(10, 10000);
 Console.WriteLine("Число " + num);
 
 string numText = Convert.ToString(num);

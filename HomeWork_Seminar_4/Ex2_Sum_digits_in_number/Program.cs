@@ -14,10 +14,10 @@ int GetSumDigits(int res)
     int sum = 0;
     while (res > 0)
     {
-        sum += res%10;
+        sum += res % 10;
         res /= 10;
     }
-    return sum;        
+    return sum;
 }
 
 Console.WriteLine($"Сумма цифр в числе {num} равно {GetSumDigits(num)}");

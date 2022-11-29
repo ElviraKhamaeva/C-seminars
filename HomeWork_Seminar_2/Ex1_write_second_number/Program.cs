@@ -7,8 +7,8 @@
 
 
 
-int num = new Random().Next(100,1000);
+int num = new Random().Next(100, 1000);
 Console.WriteLine("Число " + num);
 //int result = (num - (num/100)*100 - num%10)/10;
-int result = (num%100)/10;
+int result = (num % 100) / 10;
 Console.WriteLine("Вторая цифра этого числа " + result);

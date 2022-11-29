@@ -13,8 +13,7 @@ int GetSumNum(int res)
     {
         sum = sum + i;
     }
-    return sum;        
+    return sum;
 }
-
 
 Console.WriteLine($"Сумма чисел от 1 до {num} равна {GetSumNum(num)}");

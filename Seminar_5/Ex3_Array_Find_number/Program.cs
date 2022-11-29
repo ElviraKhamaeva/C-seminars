@@ -45,7 +45,7 @@ if (FindNumber(array, number))
 }
 else
 {
-    Console.WriteLine("Числа нет в массиве");   
+    Console.WriteLine("Числа нет в массиве");
 }
 
 

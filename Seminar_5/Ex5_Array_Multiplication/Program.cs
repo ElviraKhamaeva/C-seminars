@@ -16,16 +16,16 @@ int[] GetArray(int[] arr)
 
 int[] Multiplication(int[] arr)
 {
-    int[] arr2 = new int[arr.Length/2+arr.Length%2];
+    int[] arr2 = new int[arr.Length / 2 + arr.Length % 2];
     for (int i = 0; i < arr2.Length; i++)
     {
-        if (i == arr.Length-1-i)
+        if (i == arr.Length - 1 - i)
         {
             arr2[i] = arr[i];
         }
         else
         {
-            arr2[i] = arr[i]*arr[arr.Length-1-i];
+            arr2[i] = arr[i] * arr[arr.Length - 1 - i];
         }
     }
     return arr2;

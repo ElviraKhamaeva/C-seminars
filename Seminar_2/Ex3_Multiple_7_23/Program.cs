@@ -6,16 +6,16 @@
 // 161 -> да
 
 
-int num = new Random().Next(10,1000);
+int num = new Random().Next(10, 1000);
 //num = 161;
-Console.WriteLine("Число "+ num); 
+Console.WriteLine("Число " + num);
 
-if ((num%7 == 0) && (num%23 == 0))
+if ((num % 7 == 0) && (num % 23 == 0))
 {
-   Console.WriteLine("Число "+ num + " кратно числам 7 и 23"); 
+    Console.WriteLine("Число " + num + " кратно числам 7 и 23");
 }
 else
 {
-   Console.WriteLine("Число "+ num + " НЕкратно числам 7 и 23");
+    Console.WriteLine("Число " + num + " НЕкратно числам 7 и 23");
 }
 

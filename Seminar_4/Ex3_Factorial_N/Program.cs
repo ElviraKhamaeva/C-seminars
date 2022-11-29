@@ -12,7 +12,7 @@ int Factorial(int n)
     {
         factorial *= i;
     }
-    return factorial;        
+    return factorial;
 }
 
 Console.WriteLine($"Факториал - Произведение чисел от 1 до {num} равно {Factorial(num)}");

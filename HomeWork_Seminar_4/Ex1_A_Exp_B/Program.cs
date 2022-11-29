@@ -10,9 +10,9 @@ int A = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("В какую степень возвести это число?");
 int B = Convert.ToInt32(Console.ReadLine());
 
-double Exponentiation (int n, int k)
+double Exponentiation(int n, int k)
 {
-    double Exp = Math.Pow(n,k); 
+    double Exp = Math.Pow(n, k);
     return Exp;
 }
 

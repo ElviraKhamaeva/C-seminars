@@ -3,15 +3,15 @@
 // 34, 5 -> не кратно, остаток 4
 // 16, 4 -> кратно
 
-int num1 = new Random().Next(10,100);
-int num2 = new Random().Next(10,100);
+int num1 = new Random().Next(10, 100);
+int num2 = new Random().Next(10, 100);
 
-if (num1%num2 == 0)
+if (num1 % num2 == 0)
 {
-   Console.WriteLine("Число "+ num1 + " кратно числу "+ num2); 
+    Console.WriteLine("Число " + num1 + " кратно числу " + num2);
 }
 else
 {
-    Console.WriteLine("Остаток от деления числа " + num1 + " на " + num2 + " равен " + num1%num2);
+    Console.WriteLine("Остаток от деления числа " + num1 + " на " + num2 + " равен " + num1 % num2);
 }
 

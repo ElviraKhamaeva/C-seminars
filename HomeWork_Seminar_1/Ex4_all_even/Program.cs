@@ -12,17 +12,17 @@ Console.WriteLine("Чётные числа от 1 до " + num + ":");
 
 while (i <= num)
 {
-    if (num%2 == 1 && i == num-1)
-        {
-            Console.Write(i);
-        }
-    else if (num%2 == 0 && i == num)
-        {
-            Console.Write(i);
-        }
-        else
-            {
-                Console.Write(i + ", ");
-            }
-    i+=2;
-} 
+    if (num % 2 == 1 && i == num - 1)
+    {
+        Console.Write(i);
+    }
+    else if (num % 2 == 0 && i == num)
+    {
+        Console.Write(i);
+    }
+    else
+    {
+        Console.Write(i + ", ");
+    }
+    i += 2;
+}

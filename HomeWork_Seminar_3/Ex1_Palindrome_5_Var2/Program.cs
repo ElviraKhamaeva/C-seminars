@@ -11,10 +11,10 @@ if (num > 9999 && num < 100000)
 {
     string numText = Convert.ToString(num);
     int[] numArray = new int[numText.Length];
-    for( int i=0; i< numText.Length; i++)
-        {
-            numArray[i] = int.Parse(numText[i].ToString());
-        }
+    for (int i = 0; i < numText.Length; i++)
+    {
+        numArray[i] = int.Parse(numText[i].ToString());
+    }
 
     Array.Reverse(numArray);
     int[] numArrayRev = numArray;
@@ -23,13 +23,13 @@ if (num > 9999 && num < 100000)
     Console.WriteLine("Перевертыш: " + numTextRev);
 
     if (numText == numTextRev)
-        {
-            Console.WriteLine("Число палиндром!");
-        }
-        else
-        {
-            Console.WriteLine("Число НЕ палиндром!");
-        }    
+    {
+        Console.WriteLine("Число палиндром!");
+    }
+    else
+    {
+        Console.WriteLine("Число НЕ палиндром!");
+    }
 }
 else
 {
