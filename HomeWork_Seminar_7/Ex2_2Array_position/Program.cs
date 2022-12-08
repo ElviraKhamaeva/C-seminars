@@ -32,7 +32,11 @@ int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите позицию по столбцу искомого элемента: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
-if (m < matrix.GetLength(0) && n < matrix.GetLength(1))
+if (m < 0 || n < 0)
+{
+    Console.WriteLine("Ошибка ввода. Позиция не может быть отрицательной");
+}
+else if (m < matrix.GetLength(0) && n < matrix.GetLength(1))
 {
     Console.WriteLine($"Элемент в позиции ({m}, {n}) равен {matrix[m, n]}");
 }
