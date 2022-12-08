@@ -45,8 +45,8 @@ int rows = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите количество столбцов: ");
 int columns = Convert.ToInt32(Console.ReadLine());
 
- if (rows!=columns)
- {
+if (rows != columns)
+{
     Console.WriteLine("В этой матрице мы не можем заменить строки на столбцы");
     return;
 }
